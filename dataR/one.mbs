@@ -870,7 +870,7 @@
               <specularColor R="255" G="255" B="255" />
               <shininess>250.0</shininess>
               <transparency>0.5</transparency>
-              <url>C:\Users\vbelp\Downloads\essieu.wrl</url>
+              <url>PRJPATH\animationR\vrml\essieu.wrl</url>
             </inline>
           </x3D_shapes>
         </x3D>
@@ -1353,7 +1353,7 @@
               <specularColor R="255" G="255" B="255" />
               <shininess>250.0</shininess>
               <transparency>0.5</transparency>
-              <url>C:\Users\vbelp\Downloads\essieu.wrl</url>
+              <url>PRJPATH\animationR\vrml\essieu.wrl</url>
             </inline>
           </x3D_shapes>
         </x3D>
@@ -1654,7 +1654,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1119.0</x>
+              <x>1120.0</x>
               <y>262.0</y>
             </position>
           </x2D>
@@ -1671,7 +1671,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1214.0</x>
+              <x>1215.0</x>
               <y>266.0</y>
             </position>
           </x2D>
@@ -1688,7 +1688,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1117.0</x>
+              <x>1118.0</x>
               <y>312.0</y>
             </position>
           </x2D>
@@ -1725,7 +1725,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1206.0</x>
+              <x>1207.0</x>
               <y>316.0</y>
             </position>
           </x2D>
@@ -1755,7 +1755,7 @@
       <graphics>
         <x2D>
           <position>
-            <x>0.0</x>
+            <x>1.0</x>
             <y>-27.0</y>
           </position>
           <name_pos>
@@ -1769,8 +1769,8 @@
           </size>
           <control_points>
             <control_point>
-              <x>67.0</x>
-              <y>-28.0</y>
+              <x>68.0</x>
+              <y>-27.0</y>
             </control_point>
           </control_points>
           <angle>0.0</angle>
@@ -1800,7 +1800,7 @@
               <specularColor R="255" G="255" B="255" />
               <shininess>250.0</shininess>
               <transparency>0.5</transparency>
-              <url>C:\Users\vbelp\Downloads\essieu.wrl</url>
+              <url>PRJPATH\animationR\vrml\essieu.wrl</url>
             </inline>
           </x3D_shapes>
         </x3D>
@@ -2247,7 +2247,7 @@
               <specularColor R="255" G="255" B="255" />
               <shininess>250.0</shininess>
               <transparency>0.5</transparency>
-              <url>C:\Users\vbelp\Downloads\essieu.wrl</url>
+              <url>PRJPATH\animationR\vrml\essieu.wrl</url>
             </inline>
           </x3D_shapes>
         </x3D>
@@ -2383,7 +2383,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>290.0</x>
+              <x>291.0</x>
               <y>207.0</y>
             </position>
           </x2D>
@@ -2400,7 +2400,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>434.0</x>
+              <x>435.0</x>
               <y>206.0</y>
             </position>
           </x2D>
@@ -2417,7 +2417,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>136.0</x>
+              <x>137.0</x>
               <y>179.0</y>
             </position>
           </x2D>
@@ -2434,7 +2434,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>89.0</x>
+              <x>90.0</x>
               <y>158.0</y>
             </position>
           </x2D>
@@ -2451,7 +2451,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>466.0</x>
+              <x>467.0</x>
               <y>204.0</y>
             </position>
           </x2D>
@@ -2468,7 +2468,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>497.0</x>
+              <x>498.0</x>
               <y>197.0</y>
             </position>
           </x2D>
@@ -2485,7 +2485,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>242.0</x>
+              <x>243.0</x>
               <y>205.0</y>
             </position>
           </x2D>
@@ -2502,7 +2502,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>199.0</x>
+              <x>200.0</x>
               <y>198.0</y>
             </position>
           </x2D>
@@ -2519,7 +2519,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>165.0</x>
+              <x>166.0</x>
               <y>194.0</y>
             </position>
           </x2D>
@@ -2536,7 +2536,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>533.0</x>
+              <x>534.0</x>
               <y>183.0</y>
             </position>
           </x2D>
@@ -2553,7 +2553,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>567.0</x>
+              <x>568.0</x>
               <y>178.0</y>
             </position>
           </x2D>
@@ -2570,7 +2570,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>607.0</x>
+              <x>608.0</x>
               <y>161.0</y>
             </position>
           </x2D>
@@ -2587,7 +2587,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>321.0</x>
+              <x>322.0</x>
               <y>119.0</y>
             </position>
           </x2D>
@@ -2604,7 +2604,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>359.0</x>
+              <x>360.0</x>
               <y>116.0</y>
             </position>
           </x2D>
@@ -2621,7 +2621,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>592.0</x>
+              <x>593.0</x>
               <y>132.0</y>
             </position>
           </x2D>
@@ -2638,7 +2638,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>559.0</x>
+              <x>560.0</x>
               <y>120.0</y>
             </position>
           </x2D>
@@ -2655,7 +2655,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>287.0</x>
+              <x>288.0</x>
               <y>125.0</y>
             </position>
           </x2D>
@@ -2672,7 +2672,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>198.0</x>
+              <x>199.0</x>
               <y>123.0</y>
             </position>
           </x2D>
@@ -2689,7 +2689,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>399.0</x>
+              <x>400.0</x>
               <y>116.0</y>
             </position>
           </x2D>
@@ -2706,7 +2706,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>428.0</x>
+              <x>429.0</x>
               <y>120.0</y>
             </position>
           </x2D>
@@ -2723,7 +2723,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>459.0</x>
+              <x>460.0</x>
               <y>121.0</y>
             </position>
           </x2D>
@@ -2740,7 +2740,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>489.0</x>
+              <x>490.0</x>
               <y>118.0</y>
             </position>
           </x2D>
@@ -2750,7 +2750,7 @@
       <graphics>
         <x2D>
           <position>
-            <x>-278.0</x>
+            <x>-277.0</x>
             <y>-57.0</y>
           </position>
           <name_pos>
@@ -2764,35 +2764,35 @@
           </size>
           <control_points>
             <control_point>
-              <x>-231.0</x>
+              <x>-230.0</x>
               <y>210.0</y>
             </control_point>
             <control_point>
-              <x>-278.0</x>
+              <x>-277.0</x>
               <y>210.0</y>
             </control_point>
             <control_point>
-              <x>-278.0</x>
+              <x>-277.0</x>
               <y>-57.0</y>
             </control_point>
             <control_point>
-              <x>318.0</x>
+              <x>319.0</x>
               <y>-57.0</y>
             </control_point>
             <control_point>
-              <x>318.0</x>
+              <x>319.0</x>
               <y>213.0</y>
             </control_point>
             <control_point>
-              <x>265.0</x>
+              <x>266.0</x>
               <y>213.0</y>
             </control_point>
             <control_point>
-              <x>265.0</x>
+              <x>266.0</x>
               <y>53.0</y>
             </control_point>
             <control_point>
-              <x>-231.0</x>
+              <x>-230.0</x>
               <y>53.0</y>
             </control_point>
           </control_points>
@@ -2823,7 +2823,7 @@
               <specularColor R="255" G="255" B="255" />
               <shininess>250.0</shininess>
               <transparency>0.5</transparency>
-              <url>C:\Users\vbelp\Downloads\AnyConv.com__chassis.wrl</url>
+              <url>PRJPATH\animationR\vrml\chassis.wrl</url>
             </inline>
           </x3D_shapes>
         </x3D>
@@ -3097,7 +3097,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1276.0</x>
+              <x>1277.0</x>
               <y>189.0</y>
             </position>
           </x2D>
@@ -3114,7 +3114,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1200.0</x>
+              <x>1201.0</x>
               <y>184.0</y>
             </position>
           </x2D>
@@ -3131,7 +3131,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1144.0</x>
+              <x>1145.0</x>
               <y>177.0</y>
             </position>
           </x2D>
@@ -3148,7 +3148,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1059.0</x>
+              <x>1060.0</x>
               <y>150.0</y>
             </position>
           </x2D>
@@ -3165,7 +3165,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1234.0</x>
+              <x>1235.0</x>
               <y>186.0</y>
             </position>
           </x2D>
@@ -3182,7 +3182,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1103.0</x>
+              <x>1104.0</x>
               <y>163.0</y>
             </position>
           </x2D>
@@ -3199,7 +3199,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1403.0</x>
+              <x>1404.0</x>
               <y>192.0</y>
             </position>
           </x2D>
@@ -3216,7 +3216,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1357.0</x>
+              <x>1358.0</x>
               <y>190.0</y>
             </position>
           </x2D>
@@ -3233,7 +3233,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1505.0</x>
+              <x>1506.0</x>
               <y>187.0</y>
             </position>
           </x2D>
@@ -3250,7 +3250,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1591.0</x>
+              <x>1592.0</x>
               <y>165.0</y>
             </position>
           </x2D>
@@ -3267,7 +3267,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1545.0</x>
+              <x>1546.0</x>
               <y>178.0</y>
             </position>
           </x2D>
@@ -3284,7 +3284,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1442.0</x>
+              <x>1443.0</x>
               <y>189.0</y>
             </position>
           </x2D>
@@ -3301,7 +3301,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1099.0</x>
+              <x>1100.0</x>
               <y>129.0</y>
             </position>
           </x2D>
@@ -3318,7 +3318,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1127.0</x>
+              <x>1128.0</x>
               <y>116.0</y>
             </position>
           </x2D>
@@ -3335,7 +3335,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1394.0</x>
+              <x>1395.0</x>
               <y>115.0</y>
             </position>
           </x2D>
@@ -3352,7 +3352,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1451.0</x>
+              <x>1452.0</x>
               <y>116.0</y>
             </position>
           </x2D>
@@ -3369,7 +3369,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1494.0</x>
+              <x>1495.0</x>
               <y>121.0</y>
             </position>
           </x2D>
@@ -3386,7 +3386,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1534.0</x>
+              <x>1535.0</x>
               <y>139.0</y>
             </position>
           </x2D>
@@ -3403,7 +3403,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1181.0</x>
+              <x>1182.0</x>
               <y>113.0</y>
             </position>
           </x2D>
@@ -3420,7 +3420,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1222.0</x>
+              <x>1223.0</x>
               <y>111.0</y>
             </position>
           </x2D>
@@ -3437,7 +3437,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1273.0</x>
+              <x>1274.0</x>
               <y>113.0</y>
             </position>
           </x2D>
@@ -3454,7 +3454,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>1308.0</x>
+              <x>1309.0</x>
               <y>114.0</y>
             </position>
           </x2D>
@@ -3464,7 +3464,7 @@
       <graphics>
         <x2D>
           <position>
-            <x>-310.0</x>
+            <x>-309.0</x>
             <y>-40.0</y>
           </position>
           <name_pos>
@@ -3478,35 +3478,35 @@
           </size>
           <control_points>
             <control_point>
-              <x>-310.0</x>
+              <x>-309.0</x>
               <y>190.0</y>
             </control_point>
             <control_point>
-              <x>-310.0</x>
+              <x>-309.0</x>
               <y>-40.0</y>
             </control_point>
             <control_point>
-              <x>337.0</x>
+              <x>338.0</x>
               <y>-40.0</y>
             </control_point>
             <control_point>
-              <x>337.0</x>
+              <x>338.0</x>
               <y>201.0</y>
             </control_point>
             <control_point>
-              <x>289.0</x>
+              <x>290.0</x>
               <y>201.0</y>
             </control_point>
             <control_point>
-              <x>289.0</x>
+              <x>290.0</x>
               <y>53.0</y>
             </control_point>
             <control_point>
-              <x>-254.0</x>
+              <x>-253.0</x>
               <y>53.0</y>
             </control_point>
             <control_point>
-              <x>-254.0</x>
+              <x>-253.0</x>
               <y>190.0</y>
             </control_point>
           </control_points>
@@ -3536,7 +3536,7 @@
               <specularColor R="255" G="255" B="255" />
               <shininess>250.0</shininess>
               <transparency>0.5</transparency>
-              <url>C:\Users\vbelp\Downloads\AnyConv.com__chassis.wrl</url>
+              <url>PRJPATH\animationR\vrml\chassis.wrl</url>
             </inline>
           </x3D_shapes>
         </x3D>
@@ -4062,7 +4062,7 @@
               <specularColor R="255" G="51" B="51" />
               <shininess>250.0</shininess>
               <transparency>0.20000000298023224</transparency>
-              <url>C:\Users\vbelp\Downloads\caisse.wrl</url>
+              <url>PRJPATH\animationR\vrml\caisse.wrl</url>
             </inline>
           </x3D_shapes>
         </x3D>
