@@ -1,0 +1,33 @@
+#VRML V2.0 utf8
+
+    Shape {
+        geometry IndexedLineSet {
+           colorPerVertex FALSE
+           coord  Coordinate{
+               point [
+                      179.715899 2.439491 -0.000037,
+                      179.754975 0.933999 0.001537,
+                      179.965777 2.445983 -0.000037,
+                      180.004928 0.940493 0.001532,
+               ]
+           }
+           color  Color{
+               color [
+                      0.900000 0.900000 0.900000,
+               ]
+           }
+           coordIndex [
+    0 2 -1,
+    1 3 -1,
+           ]
+           colorIndex [
+                       0,
+                       0,
+           ]
+        }
+        appearance Appearance {
+            material Material {
+                diffuseColor 0.900000 0.900000 0.900000
+            }
+        }
+    }
