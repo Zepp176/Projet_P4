@@ -28,9 +28,10 @@ def defect_position(traj_coord, s):
     
     if s < 30.:
         return
-    
-    traj_coord[2] += 0.01 * cos(pi * (s - 30.) / 5.) - 0.01
-    dt2_ds = -2e-3 * pi * sin(pi * (s - 30.) / 5.)
+        
+    A = 0.05
+    traj_coord[2] += A * cos(pi * (s - 30.) / 5.) - A
+    dt2_ds = -A * pi * sin(pi * (s - 30.) / 5.) / 5
     traj_coord[4] += asin(dt2_ds)
 
 

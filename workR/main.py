@@ -141,7 +141,7 @@ rwc_main.set_user_model(mbs_data, 'addons', 'rwc')
 
 last_used_constraint += 2 * rwc_main.nb_wheelsets
 
-mbs_data.set_nb_userc(last_used_constraint+6)
+mbs_data.set_nb_userc(last_used_constraint+12)
 # %%===========================================================================
 # Partitionning
 # =============================================================================
@@ -155,7 +155,7 @@ mbs_part.run()
 # =============================================================================
 mbs_data.process = 3
 mbs_dirdyn = Robotran.MbsDirdyn(mbs_data)
-mbs_dirdyn.set_options(dt0=1e-3, tf=10.0, save2file=1)
+mbs_dirdyn.set_options(dt0=1e-3, tf=20.0, save2file=1)
 results = mbs_dirdyn.run()
 
 # %%===========================================================================
@@ -249,6 +249,16 @@ if voie == 3:
     fig = plt.figure()
     axis = fig.gca()
     axis.plot(results.q[:, 0], results.q[:, mbs_data.joint_id['T2_caisse1']]+results.q[:,mbs_data.joint_id['T2_chassis1']], label='q[1]')
+    axis.grid(True)
+    axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
+    axis.set_xlabel('temps [s]')
+    axis.set_ylabel('angle de roulis (R1) [rad]')
+    axis.set_title('Voie rectiligne parfaite')
+    plt.savefig("R1_caisse_rect_parf.svg", format='svg')
+    
+    fig = plt.figure()
+    axis = fig.gca()
+    axis.plot(results.q[:, 0], results.qd[:, mbs_data.joint_id['R2_Essieu1']])
     axis.grid(True)
     axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
     axis.set_xlabel('temps [s]')
