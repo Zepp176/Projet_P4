@@ -85,7 +85,7 @@ def user_JointForces(mbs_data, tsim):
         for k in range(8):
             if -x[k] > T2_1 >= -x[k+1]:
                 i = k
-                F1 = y[i]+(y[i+1]-y[i])*((T2_1-x[i])/(x[i+1]-x[i]))
+                F1 = y[i]+(y[i+1]-y[i])*((-T2_1-x[i])/(x[i+1]-x[i]))
                 break
         mbs_data.Qq[id3] = F1
     
@@ -94,7 +94,7 @@ def user_JointForces(mbs_data, tsim):
         for k in range(8):
             if -x[k] > T2_2 >= -x[k+1]:
                 j = k
-                F2 = y[j]+(y[j+1]-y[j])*((T2_2-x[j])/(x[j+1]-x[j]))
+                F2 = y[j]+(y[j+1]-y[j])*((-T2_2-x[j])/(x[j+1]-x[j]))
                 break
         mbs_data.Qq[id4] = F2
 
