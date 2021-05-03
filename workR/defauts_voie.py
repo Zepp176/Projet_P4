@@ -26,12 +26,15 @@ def defect_position(traj_coord, s):
     for the given curviline value.
     """
     
-    if s < 30.:
+    X0 = 0.0 # [m]
+    A = 0.02  # amplitude [m]
+    L = 10.0  # lg d'onde des oscillation [m]
+    
+    if s < X0:
         return
         
-    A = 0.05
-    traj_coord[2] += A * cos(pi * (s - 30.) / 5.) - A
-    dt2_ds = -A * pi * sin(pi * (s - 30.) / 5.) / 5
+    traj_coord[2] += A * cos(2.*pi * (s - X0) / L) - A
+    dt2_ds = -A * 2. * pi * sin(pi * (s - X0) / L) / L
     traj_coord[4] += asin(dt2_ds)
 
 

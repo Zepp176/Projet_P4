@@ -203,6 +203,17 @@ if voie == 1:
     axis.set_title('Voie rectiligne avec défaut de dressage')
     plt.savefig("R1_caisse_rect_def.svg", format='svg')
     
+    # autre
+    fig = plt.figure()
+    axis = fig.gca()
+    axis.plot(results.q[:, 0], 1000*results.q[:, mbs_data.joint_id['T2_ball2']], label='q[1]')
+    axis.grid(True)
+    axis.set_xlim(left=mbs_dirdyn.get_options('t0'), right=mbs_dirdyn.get_options('tf'))
+    axis.set_xlabel('temps [s]')
+    axis.set_ylabel('déplacement [mm]')
+    axis.set_title('Voie rectiligne avec défaut de dressage')
+    #plt.savefig("R1_caisse_rect_def.svg", format='svg')
+    
 if voie == 2:
     fig = plt.figure()
     axis = fig.gca()

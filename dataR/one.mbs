@@ -2176,7 +2176,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>291.0</x>
+              <x>281.0</x>
               <y>207.0</y>
             </position>
           </x2D>
@@ -2193,7 +2193,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>435.0</x>
+              <x>425.0</x>
               <y>206.0</y>
             </position>
           </x2D>
@@ -2210,7 +2210,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>137.0</x>
+              <x>127.0</x>
               <y>179.0</y>
             </position>
           </x2D>
@@ -2227,7 +2227,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>90.0</x>
+              <x>80.0</x>
               <y>158.0</y>
             </position>
           </x2D>
@@ -2244,7 +2244,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>467.0</x>
+              <x>457.0</x>
               <y>204.0</y>
             </position>
           </x2D>
@@ -2261,7 +2261,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>498.0</x>
+              <x>488.0</x>
               <y>197.0</y>
             </position>
           </x2D>
@@ -2278,7 +2278,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>243.0</x>
+              <x>233.0</x>
               <y>205.0</y>
             </position>
           </x2D>
@@ -2295,7 +2295,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>200.0</x>
+              <x>190.0</x>
               <y>198.0</y>
             </position>
           </x2D>
@@ -2312,7 +2312,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>166.0</x>
+              <x>156.0</x>
               <y>194.0</y>
             </position>
           </x2D>
@@ -2329,7 +2329,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>534.0</x>
+              <x>524.0</x>
               <y>183.0</y>
             </position>
           </x2D>
@@ -2346,7 +2346,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>568.0</x>
+              <x>558.0</x>
               <y>178.0</y>
             </position>
           </x2D>
@@ -2363,7 +2363,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>608.0</x>
+              <x>598.0</x>
               <y>161.0</y>
             </position>
           </x2D>
@@ -2380,7 +2380,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>322.0</x>
+              <x>312.0</x>
               <y>119.0</y>
             </position>
           </x2D>
@@ -2397,7 +2397,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>360.0</x>
+              <x>350.0</x>
               <y>116.0</y>
             </position>
           </x2D>
@@ -2414,7 +2414,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>593.0</x>
+              <x>583.0</x>
               <y>132.0</y>
             </position>
           </x2D>
@@ -2431,7 +2431,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>560.0</x>
+              <x>550.0</x>
               <y>120.0</y>
             </position>
           </x2D>
@@ -2448,7 +2448,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>288.0</x>
+              <x>278.0</x>
               <y>125.0</y>
             </position>
           </x2D>
@@ -2465,7 +2465,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>199.0</x>
+              <x>189.0</x>
               <y>123.0</y>
             </position>
           </x2D>
@@ -2482,7 +2482,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>400.0</x>
+              <x>390.0</x>
               <y>116.0</y>
             </position>
           </x2D>
@@ -2499,7 +2499,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>429.0</x>
+              <x>419.0</x>
               <y>120.0</y>
             </position>
           </x2D>
@@ -2516,7 +2516,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>460.0</x>
+              <x>450.0</x>
               <y>121.0</y>
             </position>
           </x2D>
@@ -2533,7 +2533,7 @@
         <graphics>
           <x2D>
             <position>
-              <x>490.0</x>
+              <x>480.0</x>
               <y>118.0</y>
             </position>
           </x2D>
@@ -2550,8 +2550,25 @@
         <graphics>
           <x2D>
             <position>
-              <x>631.0</x>
+              <x>621.0</x>
               <y>138.0</y>
+            </position>
+          </x2D>
+          <x3D />
+        </graphics>
+      </point>
+      <point>
+        <pointname>Point_23</pointname>
+        <coordinates>
+          <x>0.0</x>
+          <y>0.0</y>
+          <z>0.05</z>
+        </coordinates>
+        <graphics>
+          <x2D>
+            <position>
+              <x>627.0</x>
+              <y>117.0</y>
             </position>
           </x2D>
           <x3D />
@@ -2560,7 +2577,7 @@
       <graphics>
         <x2D>
           <position>
-            <x>-277.0</x>
+            <x>-287.0</x>
             <y>-57.0</y>
           </position>
           <name_pos>
@@ -2574,35 +2591,35 @@
           </size>
           <control_points>
             <control_point>
-              <x>-230.0</x>
+              <x>-240.0</x>
               <y>210.0</y>
             </control_point>
             <control_point>
-              <x>-277.0</x>
+              <x>-287.0</x>
               <y>210.0</y>
             </control_point>
             <control_point>
-              <x>-277.0</x>
+              <x>-287.0</x>
               <y>-57.0</y>
             </control_point>
             <control_point>
-              <x>319.0</x>
+              <x>309.0</x>
               <y>-57.0</y>
             </control_point>
             <control_point>
-              <x>319.0</x>
+              <x>309.0</x>
               <y>213.0</y>
             </control_point>
             <control_point>
-              <x>266.0</x>
+              <x>256.0</x>
               <y>213.0</y>
             </control_point>
             <control_point>
-              <x>266.0</x>
+              <x>256.0</x>
               <y>53.0</y>
             </control_point>
             <control_point>
-              <x>-230.0</x>
+              <x>-240.0</x>
               <y>53.0</y>
             </control_point>
           </control_points>
@@ -2799,7 +2816,7 @@
       <bodyname>Body_1</bodyname>
       <parent>
         <bodyname>chassis2</bodyname>
-        <pointname>origin</pointname>
+        <pointname>Point_23</pointname>
       </parent>
       <joint>
         <jointname>Joint_0</jointname>
@@ -2808,8 +2825,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>611.0</x>
-              <y>198.0</y>
+              <x>644.0</x>
+              <y>182.0</y>
             </position>
           </x2D>
           <x3D>
@@ -2825,8 +2842,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>647.0</x>
-              <y>165.0</y>
+              <x>693.0</x>
+              <y>183.0</y>
             </position>
           </x2D>
           <x3D>
@@ -3370,6 +3387,23 @@
             <position>
               <x>1032.0</x>
               <y>137.0</y>
+            </position>
+          </x2D>
+          <x3D />
+        </graphics>
+      </point>
+      <point>
+        <pointname>Point_23</pointname>
+        <coordinates>
+          <x>0.0</x>
+          <y>0.0</y>
+          <z>0.05</z>
+        </coordinates>
+        <graphics>
+          <x2D>
+            <position>
+              <x>1015.0</x>
+              <y>120.0</y>
             </position>
           </x2D>
           <x3D />
@@ -3955,7 +3989,7 @@
         <coordinates>
           <x>-9.5</x>
           <y>0.0</y>
-          <z>-1.2</z>
+          <z>-1.15</z>
         </coordinates>
         <graphics>
           <x2D>
@@ -3972,7 +4006,7 @@
         <coordinates>
           <x>9.5</x>
           <y>0.0</y>
-          <z>-1.2</z>
+          <z>-1.15</z>
         </coordinates>
         <graphics>
           <x2D>
@@ -4024,7 +4058,7 @@
           <x3D_points />
           <x3D_shapes>
             <inline>
-              <name>New_Shape</name>
+              <name>Caisse</name>
               <position>
                 <x>10.8</x>
                 <y>0.0</y>
@@ -4046,6 +4080,52 @@
               <transparency>0.20000000298023224</transparency>
               <url>PRJPATH\animationR\vrml\caisse.wrl</url>
             </inline>
+            <inline>
+              <name>Personne1</name>
+              <position>
+                <x>13.6</x>
+                <y>-0.5</y>
+                <z>0.47</z>
+              </position>
+              <scale>
+                <x>0.3</x>
+                <y>0.3</y>
+                <z>0.3</z>
+              </scale>
+              <rotation>
+                <x>1.5707963267948966</x>
+                <y>1.5707963267948966</y>
+                <z>0.0</z>
+              </rotation>
+              <color R="0" G="204" B="51" />
+              <specularColor R="255" G="255" B="255" />
+              <shininess>250.0</shininess>
+              <transparency>0.5</transparency>
+              <url>PRJPATH\animationR\vrml\lego.wrl</url>
+            </inline>
+            <inline>
+              <name>Personne2</name>
+              <position>
+                <x>13.6</x>
+                <y>0.5</y>
+                <z>0.47</z>
+              </position>
+              <scale>
+                <x>0.3</x>
+                <y>0.3</y>
+                <z>0.3</z>
+              </scale>
+              <rotation>
+                <x>1.5707963267948966</x>
+                <y>1.5707963267948966</y>
+                <z>0.0</z>
+              </rotation>
+              <color R="0" G="0" B="0" />
+              <specularColor R="255" G="255" B="255" />
+              <shininess>250.0</shininess>
+              <transparency>0.5</transparency>
+              <url>PRJPATH\animationR\vrml\lego.wrl</url>
+            </inline>
           </x3D_shapes>
         </x3D>
       </graphics>
@@ -4054,7 +4134,7 @@
       <bodyname>Body_2</bodyname>
       <parent>
         <bodyname>chassis1</bodyname>
-        <pointname>origin</pointname>
+        <pointname>Point_23</pointname>
       </parent>
       <joint>
         <jointname>Joint_1</jointname>
@@ -4063,8 +4143,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>1030.0</x>
-              <y>177.0</y>
+              <x>1007.0</x>
+              <y>182.0</y>
             </position>
           </x2D>
           <x3D>
@@ -4080,8 +4160,8 @@
         <graphics>
           <x2D>
             <position>
-              <x>971.0</x>
-              <y>189.0</y>
+              <x>938.0</x>
+              <y>190.0</y>
             </position>
           </x2D>
           <x3D>
@@ -5117,7 +5197,7 @@
   <x3D>
     <background>
       <!--This is the background properties-->
-      <color R="51" G="102" B="204" />
+      <color R="102" G="0" B="255" />
     </background>
     <shapeScaleFactors>
       <!--This is the scale factors-->
@@ -5134,7 +5214,7 @@
       <!--This is the viewpoint list-->
       <viewpoint>
         <name>New_Viewpoint</name>
-        <joint>T1_Track1</joint>
+        <joint>T1_chassis1</joint>
         <position>
           <x>1.0</x>
           <y>1.0</y>

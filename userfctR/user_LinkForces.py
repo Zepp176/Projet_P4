@@ -78,7 +78,7 @@ def user_LinkForces(Z, Zd, mbs_data, tsim, identity):
     L42 = mbs_data.link_id['CKYR1']
     L43 = mbs_data.link_id['CKYL2']
     L44 = mbs_data.link_id['CKYR2']
-    L45 = mbs_data.link_id['CKXC2']
+    L45 = mbs_data.link_id['CKXC2'] # ressort barre de traction
     L46 = mbs_data.link_id['CKXC1']
     
     if identity in [L1, L2, L3, L4, L5, L6, L7, L8]: # ressorts longitudinaux primaires
@@ -94,38 +94,39 @@ def user_LinkForces(Z, Zd, mbs_data, tsim, identity):
         Flink = K*(Z-Z0)+C*Zd
        
     if identity in [L17, L18, L19, L20, L21, L22, L23, L24]: # ressorts + amortisseur verticaux primaires
-        K  = (mbs_data.user_model['kz1']['k'] + mbs_data.user_model['dz1']['k']) *1000 # 1220 + 1000 kN/m
-        C  = (mbs_data.user_model['kz1']['c'] + mbs_data.user_model['dz1']['c']) *1000 # 0 + 4 kNs/m
+        K  = (mbs_data.user_model['kz1']['k']) *1000 # 1220 kN/m
+        C  = (mbs_data.user_model['dz1']['c']) *1000 # 4 kNs/m
         Z0 = mbs_data.user_model['kz1']['l'] /1000 # 420 mm
         Flink = K*(Z-Z0)+C*Zd - (m_caisse + 2*m_bogie)*g/8
+        
+        
+        
+        
     
     if identity in [L25, L26, L27, L28]: # ressorts verticaux secondaires
         K  = mbs_data.user_model['kz2']['k'] *1000 # 430 kN/m
-        #C  = mbs_data.user_model['kz2']['c'] *1000 # 0 kNs/m
         Z0 = mbs_data.user_model['kz2']['l'] /1000 # 605 mm
         Flink = K*(Z-Z0) - m_caisse*g/4
        
     if identity in [L29, L30, L31, L32]: # amortisseurs verticaux secondaires
-        # pas de ressort ??
         C  = mbs_data.user_model['dz2']['c'] *1000 # 20 kNs/m
         Flink = C*Zd
     
+    if identity in [L41, L42, L43, L44]: # ressort latéraux secondaires
+        K  = mbs_data.user_model['ky2']['k'] *1000 # 160 kN/m
+        Z0 = mbs_data.user_model['ky2']['l'] /1000 # 400 mm
+        Flink = K*(Z-Z0)
+    
     if identity in [L33, L34, L35, L36]: # amortisseur latéraux secondaires
-        # pas de ressort ??
         C  = mbs_data.user_model['dy2']['c'] *1000 # 32 kNs/m
         Flink = C*Zd
        
     if identity in [L37, L38, L39, L40]: # ressorts longitudinaux secondaires
-        K  = mbs_data.user_model['kx2']['k'] *1000 # 160 kN/m
+        K  = mbs_data.user_model['kx2']['k'] *1000 # 160 kN/mm
         Z0 = mbs_data.user_model['kx2']['l'] /1000 # 400 mm
         Flink = K*(Z-Z0)
-
-    if identity in [L41, L42, L43, L44]: # ressort latéraux seconadaires
-        K  = mbs_data.user_model['ky2']['k'] *1000 # 160 kN/m
-        Z0 = mbs_data.user_model['ky2']['l'] /1000 # 400 mm
-        Flink = K*(Z-Z0)
         
-    if identity in [L45, L46]:
+    if identity in [L45, L46]:           # ressort barre de traction
         K = mbs_data.user_model['kxc2']['k']*1000
         Z0 = mbs_data.user_model['kxc2']['l']/1000
         C = mbs_data.user_model['kxc2']['c']*1000
